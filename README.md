@@ -1,8 +1,14 @@
 # Dahua Admin Toolkit (PowerShell GUI)
-
+## Описание (RU)
 Инструмент для администрирования регистраторов **Dahua** через WinForms-GUI: управление пользователями, смена паролей, быстрый поиск, просмотр характеристик устройства (Cloud ID, версии ПО/железа, текущее время, серийный номер, диски и пр.), логирование операций.
 
 > Скрипт рассчитан на локальную работу администратора в доверенной сети. Вызовы выполняются к штатным CGI-API Dahua.
+
+
+## Description (EN)
+Tool for administering Dahua recorders via a WinForms GUI: user management, password changes, quick search, viewing device characteristics (Cloud ID, firmware/hardware versions, current time, serial number, disks, etc.), and operation logging.
+
+> The script is intended for local use by administrators in a trusted network. All calls use Dahua’s standard CGI APIs.
 
 ---
 
