@@ -1,4 +1,10 @@
-﻿#------------------------------------------------------------------------------#
+#title           :DahuaAdminToolkit.ps1
+#description     :Инструмент администрирования Регистраторов Марки Dahua
+#supported       :PowerShell, PowerShell 7+
+#author          :xor0x1
+#updated         :2025-10-02
+
+#------------------------------------------------------------------------------#
 # Инструмент администрирования Регистраторов Марки Dahua - v5 (02.10.2025)
 #------------------------------------------------------------------------------#
 
@@ -41,6 +47,7 @@ public class TrustAllCertsPolicy : ICertificatePolicy {
 $recorders = @(
 @{ IP = "192.168.1.1"; Username = "admin"; Password = "password"; Title = "Название Регистратора 1" },
 @{ IP = "192.168.1.2"; Username = "admin"; Password = "password"; Title = "Название Регистратора 2" },
+
 @{ IP = "192.168.1.3"; Username = "admin"; Password = "password"; Title = "Название Регистратора 3" }
 )
 Write-Log ("Загружено устройств: {0}" -f $recorders.Count)
