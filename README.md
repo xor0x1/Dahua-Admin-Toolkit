@@ -37,8 +37,8 @@
 ---
 ## 🚀 Установка и запуск
 ``` 
- git clone https://github.com/xor0x1/Dahua-Admin-Toolkit.git
- cd Dahua-Admin-Toolkit
+git clone https://github.com/xor0x1/Dahua-Admin-Toolkit.git]
+cd Dahua-Admin-Toolkit
 ```
 - Windows PowerShell
 > powershell.exe -ExecutionPolicy Bypass -File .\DahuaAdminToolkit_v5.ps1
